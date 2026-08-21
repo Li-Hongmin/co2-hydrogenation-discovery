@@ -1,0 +1,8 @@
+task_id,stage,primary_quantity,hypothesis_target,advance_threshold_ev,decision_rule,stop_rule
+D00_MODEL_SURVIVAL,0,localized-Zr motif structural survival,model-validity,,advance only motifs retaining bixbyite long-range order and fluorite-like Zr first shell,stop motifs that collapse phase-separate or require artificial constraints
+D01_H_PAIR_THERMODYNAMICS,1,In-H/OH pair free energy,hydrogen-thermodynamics,0.10,advance if localized motif shifts H-pair free energy >=0.10 eV relative to controls,stop H2-NEB expansion if all paired shifts <0.05 eV
+D02_CO2_HEALING,1,CO2 vacancy-healing reaction energy and barrier,direct-healing,0.10,advance if local motif changes healing by >=0.10 eV in a location-specific way,if similar move to one vacancy-migration path instead of more reaction steps
+D03_H2COOH_SCISSION,1,H2COOH scission barrier,direct-methanol-network,0.10,advance if paired barrier shift >=0.10 eV at matched redox/hydroxylation,do not expand full network if shift <0.05 eV
+D04_VACANCY_MIGRATION,2,subsurface-to-surface vacancy migration barrier,bulk-defect-supply,0.15,run only if direct healing does not explain dynamics or transients imply transport limitation,stop after representative paths unless difference >=0.15 eV
+D05_H2_DISSOCIATION,2,H2 dissociation barrier,hydrogen-activation,0.15,run only if H-pair thermodynamics or experiment indicates H2 activation limitation,do not infer higher TOF without degree-of-rate-control analysis
+D06_INTERFACE_ESCAPE_HATCH,3,Zr segregation/interface formation energy,hidden-interface,0.20,run only if spectroscopy shows redistribution or homogeneous models fail,do not use interface models to rescue homogeneous-doping hypothesis without experimental trigger
