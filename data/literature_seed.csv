@@ -1,0 +1,10 @@
+id,year,venue,doi,role
+L16_IN2O3_OPERANDO_2019,2019,Journal of the American Chemical Society,10.1021/jacs.9b04873,"operando restructuring/deactivation-regeneration anchor"
+L17_IN2O3_VACANCY_MKM,2021,ACS Catalysis,10.1021/acscatal.0c05046,"oxygen-vacancy/reduced-layer microkinetic anchor"
+L18_IN2O3_HYDROXYL_MKM,2021,ACS Catalysis,10.1021/acscatal.1c01707,"hydroxylated In2O3(110) microkinetic anchor"
+L19_IN2O3_ZRO2_ROLE,2020,ACS Catalysis,10.1021/acscatal.9b03305,"ZrO2 support/interface anchor"
+L20_IN2O3_PUBLIC_DATA,2026,Zenodo,10.5281/zenodo.19450660,"public experimental/DFT archive"
+L21_IN2O3_WATER,2020,Journal of Catalysis,10.1016/j.jcat.2020.01.014,"water/hydroxyl competing-mechanism anchor"
+L22_IN2O3_AL_MORPHOLOGY,2023,ACS Catalysis,10.1021/acscatal.3c04620,"promoter/morphology stability anchor"
+L24_IN2O3_H2_VACANCY,2025,Precision Chemistry,10.1021/prechem.5c00005,"H2 activation and vacancy surface-state anchor"
+L25_IN2O3_SURFACE_RECONSTRUCTION,2022,ACS Catalysis,10.1021/acscatal.2c00207,"surface reconstruction and hidden-interface alternative"
