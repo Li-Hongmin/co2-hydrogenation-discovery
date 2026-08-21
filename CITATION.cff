@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research workspace, please cite the corresponding study release or manuscript."
+title: "CO2 Hydrogenation Discovery"
+type: software
+authors:
+  - family-names: Li
+    given-names: Hongmin
+year: 2026
+repository-code: "https://github.com/Li-Hongmin/co2-hydrogenation-discovery"
