@@ -1,0 +1,7 @@
+model_id,composition,role,structural_gate
+BIX-0,In32O48,undoped bixbyite reference,reproduce relaxed bixbyite host
+BIX-Zr6.25,In30Zr2O49,ordinary Zr-doped bixbyite control,retain bixbyite long-range order and source-like defect association
+PER-Zr6.25,In30Zr2O49,periodic fluorite-like computational comparator,classify only as comparator if stability depends on global periodic constraint
+LOC-Zr6.25,In30Zr2O49,localized fluorite-like Zr first shell in bixbyite host,advance only if local shell survives without global fluorite conversion or artificial remote-atom freezing
+EMB-Zr3.125,In62Zr2O97,isolated local motif concentration control,advance only if localized motif is reproduced from multiple initializations
+EMB-Zr6.25,In60Zr4O98,two separated local motifs concentration-matched control,motifs must remain separated after relaxation
