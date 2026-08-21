@@ -1,0 +1,6 @@
+state,condition,mean_in_oxidation_state,in_o_cn,methanol_sty_g_gcat_h,xrd_fwhm_q2p1_ainv,evidence_note
+S1,"standard feed after 4 h",2.9,5.8,0.36,0.050,"published point estimate"
+S2,"1.7 vol-% CO2 for 90 min",2.8,5.8,0.43,,"different inlet composition; not an intrinsic-state comparison"
+S3,"after 0.08 vol-% CO2 challenge then 90 min standard feed",2.4,4.9,0.28,,"over-reduced/damaged state"
+S4,"after CO2-only reoxidation then 90 min standard feed",2.9,5.7,0.32,0.044,"redox average recovered; function not fully recovered"
+S5,"H2/N2 without CO2",0.3,,,,"mostly metallic/reduced endpoint; not methanol synthesis"
