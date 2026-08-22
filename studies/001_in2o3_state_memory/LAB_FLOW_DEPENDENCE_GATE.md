@@ -21,6 +21,16 @@ The response is therefore not a one-run anomaly and is not confined to one Zr lo
 
 At the same time, CO2 conversion falls systematically as flow increases. Representative initial→80 mL min−1 changes are approximately 0.93→0.47% for 5Zr, 0.86→0.44% for 10Zr, and 0.79→0.40% for 20Zr. Carbon balances remain near their run baselines and the rate returns after restoring the original flow, arguing against a simple carbon-accounting artifact or irreversible activation as the sole explanation.
 
+## Orthogonal XRD check across Zr loading
+
+The ex situ c650 XRD patterns for 5, 10 and 20% Zr were also refit with the same local pseudo-Voigt procedure at four prominent In2O3 reflections. This is not an instrument-corrected crystallite-size analysis; it is used only to ask whether the three materials are structurally identical at the level of observed peak position/width.
+
+At the ~30.6° reflection, observed FWHM is approximately 0.754° (5Zr), 0.741° (10Zr), and 0.822° (20Zr). The 20Zr peak is also shifted to lower 2θ (~30.550° versus ~30.602° for 5Zr). Similar broadening/shift is present at the other fitted reflections. Thus 20Zr is measurably different in observed diffraction profile from the lower-Zr samples, yet its normalized flow response is nearly the same: 50/30 = 1.180 and 80/30 = 1.320.
+
+This does **not** rule out external mass transfer, because transport can remain similar across these materials and the observed width is not a particle-size measurement. It does, however, make a sample-specific irreversible structural activation explanation less attractive: a common reversible flow/contact-time phenomenon persists across materials with distinguishable diffraction profiles.
+
+The fitted peak values are stored in `outputs/zr_xrd_peak_fit_summary.csv`. Instrument broadening and microstrain have not been separated, so these FWHM values must not be converted into definitive crystallite sizes.
+
 ## Licensed interpretation
 
 Under an ideal differential intrinsic-kinetics interpretation at fixed inlet partial pressures, temperature, catalyst mass and pressure, mass-specific rate should be approximately invariant to total flow once heat/mass-transfer and product/contact-time effects are negligible. The repeated, reversible ~18–32% flow response across three Zr loadings therefore shows that the laboratory STY in this operating window is **not yet licensed as a flow-invariant intrinsic kinetic observable**.
