@@ -19,7 +19,9 @@ Across all four flow ramps, increasing total flow from 30 to 50 mL min−1 incre
 
 The response is therefore not a one-run anomaly and is not confined to one Zr loading. A log–log fit of plateau STY against flow gives an apparent flow exponent of approximately 0.27 (5Zr II), 0.32 (5Zr III), 0.27 (10Zr), and 0.28 (20Zr).
 
-At the same time, CO2 conversion falls systematically as flow increases. Representative initial→80 mL min−1 changes are approximately 0.93→0.47% for 5Zr, 0.86→0.44% for 10Zr, and 0.79→0.40% for 20Zr. Carbon balances remain near their run baselines and the rate returns after restoring the original flow, arguing against a simple carbon-accounting artifact or irreversible activation as the sole explanation.
+At the same time, CO2 conversion falls systematically as flow increases. Representative initial→80 mL min−1 changes are approximately 0.93→0.47% for 5Zr, 0.86→0.44% for 10Zr, and 0.79→0.40% for 20Zr. Multiplying total flow by conversion gives an independent throughput proxy for total CO2 consumption; relative to the initial 30 mL min−1 stage, this proxy rises by ~16–19% at 50 mL min−1 and ~34–37% at 80 mL min−1 across the four runs. The effect is therefore not merely a redistribution of selectivity into methanol. Carbon balances remain near their run baselines and the rate returns after restoring the original flow, arguing against a simple carbon-accounting artifact or irreversible activation as the sole explanation.
+
+MeOH selectivity changes much less than STY: it generally decreases only by about 1–2 percentage points at 80 mL min−1 while mass-specific MeOH productivity rises by roughly one third. This again points to a change in overall observed reaction throughput rather than a selectivity-only effect.
 
 ## Orthogonal XRD check across Zr loading
 
